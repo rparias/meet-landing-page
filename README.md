@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/rparias/)
-- Live Site URL: [GitHub Pages](https://rparias.github.io/)
+- Solution URL: [GitHub](https://github.com/rparias/meet-landing-page)
+- Live Site URL: [GitHub Pages](https://rparias.github.io/meet-landing-page/)
 
 ### Built with
 
