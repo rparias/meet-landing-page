@@ -18,27 +18,33 @@
     --white: #FAFAFA;
 }
 
+body {
+    font-size: 16px;
+    line-height: 16px;
+}
+
 h1, h2, h3 {
     text-align: center;
 }
 
 h1 {
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
     font-weight: 900;
     color: var(--black);
+    padding: 1.5rem;
 }
 
 h2 {
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 2rem;
+    line-height: 2.25rem;
     font-weight: 900;
     color: var(--black);
 }
 
 h3 {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625rem;
     font-weight: 900;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -46,8 +52,8 @@ h3 {
 }
 
 p {
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625rem;
     font-weight: 500;
     color: var(--gray);
 }
@@ -56,6 +62,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 4rem 1.5rem;
 }
 
 .btn {
@@ -66,6 +73,7 @@ header {
     font-weight: 900;
     color: var(--white);
     cursor: pointer;
+    height: 58px;
 }
 
 .primary {
@@ -94,6 +102,10 @@ header {
     color: var(--soft-violet);
 }
 
+.logo {
+    margin-bottom: 54px;
+}
+
 .logo img {
     width: 119px;
     height: 28px;
@@ -102,6 +114,7 @@ header {
 .faces {
     display: flex;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 
 .info-header {
@@ -117,5 +130,37 @@ header {
 .buttons-header {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    margin: 2rem;
+    flex-basis: 132px;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
 }
